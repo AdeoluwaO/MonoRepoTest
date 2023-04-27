@@ -1,6 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Button } from "ui";
+import { TestText } from "components";
+import {  } from 'components';
+import { sampleUserData } from "utils";
+import {  } from 'utils';
+
 
 export default function Native() {
   return (
@@ -13,6 +18,8 @@ export default function Native() {
         }}
         text="Boop"
       />
+      {/* shared component */}
+      <TestText text='MonoRepo Test' />
       <StatusBar style="auto" />
     </View>
   );
