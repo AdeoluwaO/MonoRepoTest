@@ -2,12 +2,10 @@ import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Button } from "ui";
 import { TestText } from "components";
-import {  } from 'components';
 import { sampleUserData } from "utils";
-import {  } from 'utils';
-
 
 export default function Native() {
+  
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Native</Text>
